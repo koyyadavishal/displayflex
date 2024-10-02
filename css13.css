@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+}
+
+nav{background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 4px;
+    height: 50px;
+    position:fixed;
+    width: 100%
+}
+.y1{
+    display: flex;
+    letter-spacing:4px ;
+    gap: 20px;
+}
+
+
+h2{
+    display: flex;
+    align-items: end;
+    background-image: url(hamburger.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    letter-spacing: 4px;
+    color: gray; 
+    font-size: 30px;
+
+}
+.a1{
+  
+    margin-top: 6%;
+}
+.a2{
+   
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+   
+}
+img{
+    width: 40%;
+    height: 60vh;
+    margin-top: 20px;
+}
+.a4{
+    flex-basis: 30%;
+    margin-right: 30px;
+}
+.a3{
+    flex-basis: 30%;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: 'franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.a5{
+    font-size: 18px;
+    word-spacing: 2px;
+    text-align: justify;
+    
+}
+.a7{
+    margin-top: 4%;
+}
+.b1{
+
+margin-top: 6%;
+
+}
+.b2{
+
+    display: flex;
+    justify-content: center;
+    
+}
+.b3{
+order: 2;
+flex-basis: 30%;
+text-align: center;
+
+
+}
+.b4{
+flex-basis: 30%;
+margin-right: 6%;
+
+}
+.b5{
+margin-top: 10%;
+}
+h3{
+margin-bottom: 5%;
+margin-top: 5%;
+font-size: 18px;
+}
+.j1{
+color:grey;
+}
+.v1{
+text-align: center;
+margin-top: 2%;
+margin-bottom: 4%;
+}  
+
+a{
+text-decoration: none;
+color: white;
+}
+a:hover{
+color: black;
+background-color: rgb(230, 230, 250);
+}
+hr{
+width: 80%;
+margin-top: 20px;
+margin-left: 12%;
+margin-right: 15%;
+
+}
+input{
+display: flex;
+margin-left: 6rem;
+width: 80%;
+border: none;
+border-bottom: 2px solid grey;
+font-size: 16px;
+}
+button{
+margin-left: 6rem;
+margin-bottom: 3rem;
+}
